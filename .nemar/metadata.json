@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Passive but accessible:  Studied information is not actively stored in working memory, yet attended regardless of anticipated load",
+  "description": "This EEG dataset investigates how attended information is maintained in working memory despite varying cognitive load expectations. Participants performed a color-recall task with two memory screens presenting studied and novel objects under conditions of high or low anticipated load. The study examines neural correlates of working memory maintenance and the effects of load expectation on memory-related brain activity, using event-related potentials and spectral analysis of EEG signals.",
+  "methods_description": "EEG was recorded during a working memory task involving two memory screens (1000 ms each) separated by a 1400 ms interstimulus interval. Participants memorized objects on the first screen and performed color-recall responses on a continuous color wheel. Load expectation was manipulated by varying the probability of additional items appearing on the second screen (80% in high-load condition, 20% in low-load condition). Corrective feedback was provided for studied objects with errors exceeding 40°.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,27 @@
     "Elkan Akyürek": {},
     "Eren Günseli": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007081.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "cognitive load"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "memory maintenance"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007081",
       "identifier_type": "URL",
@@ -26,64 +43,27 @@
       "identifier": "https://nemar.org/dataset/on007081",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007081.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "12.1 GB (83 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This EEG study investigates how working memory accessibility is influenced by attentional expectations and prior learning. Participants performed a color-recall task with two memory screens containing studied and novel objects, while load expectations were manipulated across blocks. The dataset examines neural correlates of memory encoding and retrieval when information is passively accessible despite varying anticipated cognitive demands.",
-  "methods_description": "EEG was recorded during a two-screen memory task with jittered intertrial intervals (600-1000 ms). The first screen (1000 ms) presented four objects (two to-be-memorized on one side, two balancing items on the opposite side), followed by a 1400 ms interstimulus interval. A second screen (1000 ms) presented additional novel items vertically around fixation. Load expectation was manipulated by varying the probability of second-screen items appearing (80% in high-load expectation, 20% in low-load expectation blocks). Participants performed color-recall responses on a continuous color wheel with corrective feedback for studied objects exceeding 40° error.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "memory encoding"
-    },
-    {
-      "term": "memory retrieval"
-    },
-    {
-      "term": "load expectation"
-    },
-    {
-      "term": "visual attention"
-    },
-    {
-      "term": "working memory accessibility"
-    },
-    {
-      "term": "passive accessibility"
-    },
-    {
-      "term": "color recall"
-    },
-    {
-      "term": "visual memory"
-    },
-    {
-      "term": "cognitive load"
-    },
-    {
-      "term": "neural correlates"
-    }
-  ],
-  "source_hash": "a3f1de2e666ab8b78d8586e1aa41e6bb8dc2bbe2f41ecdb593e5f2c080f386b1"
+  "source_hash": "0cdd2ae1c71a85e49186f200644df7da25bf8df27a732dc1b20fb0ab1663165a"
 }
