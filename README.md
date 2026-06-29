@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007081-blue)](https://doi.org/10.82901/nemar.on007081)
+
 Each trial began with a fixation dot presented for a jittered intertrial interval (ITI) between 600 and 1000 ms.
 The first memory screen (1000 ms) showed two objects on one lateral side that participants were instructed to memorize (indicated by a wedge cue), and two objects on the opposite side to balance visual input.
 Depending on the block condition, the to-be-memorized objects on the first screen could be studied (learned in the learning phase) or novel/unstudied.
